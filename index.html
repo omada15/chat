@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Chat</title>
+    <title>gang gang</title>
 </head>
 <body>
     
     <div class="container my-4">
         <h1 class="my-4 text-center">Chat</h1>
-        <!-- buttons for chatroom -->
         <div class="chat-rooms mb-3 text-center">
             <div class="my-2">Choose a chatroom:</div>
             <button class="btn" id="general">general</button>
@@ -19,15 +19,12 @@
             <button class="btn" id="music">site requests</button>
             <button class="btn" id="ninjas">other</button>
         </div>
-        <p>NOTICE: the server running this chat program has limited storage space. Irrelavent chats may be deleted without notice</p>
-        <p>Made with Google Firebase</p>
-        <!-- chat list / window -->
+        
         <div class="chat-window">
             <ul class="chat-list list-group">
 
             </ul>
         </div>
-        <!-- new chat form -->
         <form action="" class="new-chat my-3">
             <div class="input-group">
                 <div class="input-group-prepend">
@@ -54,18 +51,14 @@
             <div class="update-mssg"></div>
         </form>
     </div>
+    <p>NOTICE: the server running this chat program has limited storage space. Irrelavent chats may be deleted without notice</p>
+    <p>Made with Google Firebase</p>
 
-<!--     <script src="https://cdn.date-fns.org/v1.9.0/date_fns.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.9.0/date_fns.min.js" integrity="sha256-knF+s9L9ZDzFye6zMs8D2kBqlEdsWXSnTSNDmyADS9A=" crossorigin="anonymous"></script>
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-firestore.js"></script>
 
-    <!-- TODO: Add SDKs for Firebase products that you want to use
-        https://firebase.google.com/docs/web/setup#available-libraries -->
-
     <script>
-    // Your web app's Firebase configuration
     const firebaseConfig = {
         apiKey: "AIzaSyAZVbWw6MANZ7ABAnBQkEX08hHVApdWmAk",
         authDomain: "chat-baf06.firebaseapp.com",
@@ -75,7 +68,6 @@
         appId: "1:1005570695697:web:0b22f5cfb6e93b6bf107b0",
         measurementId: "G-E6BCX3QEJ5"
     };
-    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
     </script>
