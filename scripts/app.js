@@ -18,7 +18,8 @@ newChatForm.addEventListener('submit', e =>{
 newNameForm.addEventListener('submit', e => {
     e.preventDefault();
     var newName = newNameForm.name.value.trim();
-    if (newName.includes("sam") || newName.includes("meng")) {
+    var checker = newName.toLowerCase();
+    if (checker.includes("sam") || checker.includes("meng")) {
         newName = "Dilliam Wing"
     }
     chatroom.updateName(newName);
@@ -38,10 +39,11 @@ rooms.addEventListener('click', e => {
 
 // check local storage for a name 
 var username = localStorage.username ? localStorage.username : 'Dilliam Wing';
+var checker = username.toLowerCase();
 
-if (username.includes("Sam")) {
-   username = "anonymous";
-   localStorage.username = "anonymous";
+if (checker.includes("sam") || checker.includes("meng")) {
+   username = "Dilliam Wing";
+   localStorage.username = "Dilliam Wing";
 }
 // class instances
 const chatUI = new ChatUI(chatList);
