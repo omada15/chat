@@ -3,16 +3,17 @@ body {
     background-color: #111926;
 }
 .form-control {
-    background-color: #1f2937
+    background-color: #384454;
 }
 .container{
+    background-color: #1f2937;
     max-width: 600px;
 }
 .list-group-item {
-    background-color: #1f2937;
+    background-color: #384454;
 }
 .btn{
-    background-color: #33cc33;
+    background-color: #18a44c;
     color: white;
     outline: none !important;
     box-shadow: none !important;
