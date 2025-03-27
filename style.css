@@ -11,7 +11,7 @@ html {
     outline: none !important;
     box-shadow: none !important;
 }
-chat-container {
+chat-window {
     overflow-y:auto;
     max-height: 500px;
 }
