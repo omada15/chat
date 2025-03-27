@@ -1,9 +1,8 @@
-html {
+body {
     background-color: #111926;
 }
 .container{
     max-width: 600px;
-    background-color: #1f2937;
 }
 .btn{
     background-color: #43d9be;
@@ -11,7 +10,7 @@ html {
     outline: none !important;
     box-shadow: none !important;
 }
-chat-window {
+.chat-window {
     overflow-y:scroll;
     max-height: 500px;
 }
