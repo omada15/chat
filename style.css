@@ -2,6 +2,9 @@ body {
     color:white;
     background-color: #111926;
 }
+.form-control {
+    background-color: #1f2937
+}
 .container{
     max-width: 600px;
 }
