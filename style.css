@@ -3,7 +3,7 @@
 }
 .btn{
     background-color: var(--color-gray-900);
-    color: white;
+    color: var(--color-gray-900);
     outline: none !important;
     box-shadow: none !important;
 }
