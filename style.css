@@ -2,7 +2,7 @@
     max-width: 600px;
 }
 .btn{
-    background: #43d9be;
+    background-color: var(--color-gray-900);
     color: white;
     outline: none !important;
     box-shadow: none !important;
