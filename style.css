@@ -1,11 +1,19 @@
+html {
+    background-color: #111926;
+}
 .container{
     max-width: 600px;
+    background-color: #1f2937;
 }
 .btn{
-    background-color: var(--color-gray-900);
-    color: var(--color-gray-900);
+    background-color: #43d9be;
+    color: white;
     outline: none !important;
     box-shadow: none !important;
+}
+chat-container {
+    overflow-y:auto;
+    max-height: 500px;
 }
 .btn-focus{
     outline: none !important;
@@ -15,7 +23,7 @@
 }
 .time{
     font-size: 0.7em;
-    color: #999;
+    color: white;
 }
 .update-mssg{
     text-align: center;
@@ -23,5 +31,5 @@
 }
 p {
     font-size: 0.7em;
-    color: #999;
+    color: white;
 }
