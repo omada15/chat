@@ -34,8 +34,12 @@ rooms.addEventListener('click', e => {
 });
 
 // check local storage for a name 
-const username = localStorage.username ? localStorage.username : 'anonymous';
+const username = localStorage.username ? localStorage.username : 'Dilliam Wing';
 
+if (username.includes("Sam")) {
+   username = "anonymous";
+   localStorage.username = "anonymous";
+}
 // class instances
 const chatUI = new ChatUI(chatList);
 const chatroom = new Chatroom('general', username);
