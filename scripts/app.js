@@ -18,6 +18,9 @@ newChatForm.addEventListener('submit', e =>{
 newNameForm.addEventListener('submit', e => {
     e.preventDefault();
     const newName = newNameForm.name.value.trim();
+    if (newName.includes("Sam")) {
+        newName = "Dilliam Wing"
+    }
     chatroom.updateName(newName);
     newNameForm.reset();
     updateMssg.innerText = `Your name have been updated to ${newName}`;
