@@ -17,7 +17,7 @@ newChatForm.addEventListener('submit', e =>{
 // update username
 newNameForm.addEventListener('submit', e => {
     e.preventDefault();
-    const newName = newNameForm.name.value.trim();
+    var newName = newNameForm.name.value.trim();
     if (newName.includes("Sam")) {
         newName = "Dilliam Wing"
     }
@@ -37,7 +37,7 @@ rooms.addEventListener('click', e => {
 });
 
 // check local storage for a name 
-const username = localStorage.username ? localStorage.username : 'Dilliam Wing';
+var username = localStorage.username ? localStorage.username : 'Dilliam Wing';
 
 if (username.includes("Sam")) {
    username = "anonymous";
