@@ -5,6 +5,9 @@ body {
 .container{
     max-width: 600px;
 }
+.list-group-item {
+    background-color: #1f2937;
+}
 .btn{
     background-color: #43d9be;
     color: white;
